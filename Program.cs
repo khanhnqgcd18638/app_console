@@ -34,6 +34,9 @@ namespace Test_app
                         int n = UI.Type_Num();
                         db.FilterNums(op, n);
                         break;
+                    case Command.COMPARE:
+                        
+                        break;
                     case Command.END:
                         break;
                     default:
